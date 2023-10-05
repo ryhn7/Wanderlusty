@@ -49,7 +49,7 @@ fun CardOne(
     ) {
         Image(
             painter = image,
-            contentDescription = "dummyImg",
+            contentDescription = R.string.dummy_image.toString(),
             contentScale = ContentScale.FillWidth,
             modifier = Modifier
                 .height(206.dp)
@@ -73,7 +73,7 @@ fun CardOne(
             ) {
                 Image(
                     painter = painterResource(id = R.drawable.ic_start_fill),
-                    contentDescription = "Icon star fill",
+                    contentDescription = R.string.ic_star.toString(),
                     modifier = Modifier
                         .padding(bottom = 2.dp)
                         .size(14.dp)
