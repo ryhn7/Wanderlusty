@@ -20,59 +20,38 @@ val Typography = Typography(
     headlineLarge = TextStyle(
         fontFamily = Poppins,
         fontSize = 32.sp,
-
-        ),
-    headlineMedium = TextStyle(
+    ), headlineMedium = TextStyle(
         fontFamily = Poppins,
         fontSize = 28.sp,
-
-        ),
-    headlineSmall = TextStyle(
+    ), headlineSmall = TextStyle(
         fontFamily = Poppins,
         fontSize = 24.sp,
-
-        ),
-    titleLarge = TextStyle(
+    ), titleLarge = TextStyle(
         fontFamily = Poppins,
-        fontSize = 22.sp,
-
-        ),
-    titleMedium = TextStyle(
+        fontSize = 20.sp,
+    ), titleMedium = TextStyle(
         fontFamily = Poppins,
         fontSize = 16.sp,
-    ),
-    titleSmall = TextStyle(
+    ), titleSmall = TextStyle(
         fontFamily = Poppins,
         fontSize = 14.sp,
-    ),
-    bodyLarge = TextStyle(
+    ), bodyLarge = TextStyle(
         fontFamily = Poppins,
         fontSize = 16.sp,
-
-        ),
-    bodyMedium = TextStyle(
+    ), bodyMedium = TextStyle(
         fontFamily = Poppins,
         fontSize = 14.sp,
-
-        ),
-    bodySmall = TextStyle(
+    ), bodySmall = TextStyle(
         fontFamily = Poppins,
         fontSize = 12.sp,
-
-        ),
-    labelLarge = TextStyle(
+    ), labelLarge = TextStyle(
         fontFamily = Poppins,
         fontSize = 14.sp,
-
-        ),
-    labelMedium = TextStyle(
+    ), labelMedium = TextStyle(
         fontFamily = Poppins,
         fontSize = 12.sp,
-
-        ),
-    labelSmall = TextStyle(
+    ), labelSmall = TextStyle(
         fontFamily = Poppins,
         fontSize = 10.sp,
-
-        )
+    )
 )

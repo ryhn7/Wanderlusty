@@ -1,4 +1,4 @@
-package com.example.wanderlusty.core.presentation.componets
+package com.example.wanderlusty.feature_explore_tourism.presentation.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column

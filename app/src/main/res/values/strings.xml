@@ -2,4 +2,5 @@
     <string name="app_name">Wanderlusty</string>
     <string name="dummy_image">Dummy Image</string>
     <string name="ic_star">Icon star</string>
+    <string name="ic_category">Icon category</string>
 </resources>
