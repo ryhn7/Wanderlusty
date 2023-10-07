@@ -15,21 +15,21 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.wanderlusty.R
+import com.example.wanderlusty.core.data.model.Category
 import com.example.wanderlusty.core.theme.DavysGrey
 import com.example.wanderlusty.core.theme.IguanaGreen
 import com.example.wanderlusty.core.theme.WanderlustyTheme
 
 @Composable
 fun CardCategory(
-    image: Painter,
-    name: String,
+    category: Category,
     modifier: Modifier
 ) {
     Card(
@@ -47,13 +47,13 @@ fun CardCategory(
                 .background(color = IguanaGreen.copy(alpha = 0.25f), shape = CircleShape)
         ) {
             Image(
-                painter = image,
-                contentDescription = R.string.ic_category.toString(),
+                painter = painterResource(id = category.imageCategory),
+                contentDescription = R.string.icon.toString(),
                 modifier = Modifier.size(26.dp)
             )
         }
         Text(
-            text = name,
+            text = stringResource(category.textCategory),
             textAlign = TextAlign.Center,
             style = MaterialTheme.typography.bodySmall.copy(
                 fontWeight = FontWeight.Thin,
@@ -71,8 +71,10 @@ fun CardCategory(
 fun CardCategoryPreview() {
     WanderlustyTheme {
         CardCategory(
-            image = painterResource(id = R.drawable.ic_forest),
-            name = "Forest",
+            category = Category(
+                R.drawable.ic_forest,
+                R.string.forest,
+            ),
             modifier = Modifier
         )
     }
