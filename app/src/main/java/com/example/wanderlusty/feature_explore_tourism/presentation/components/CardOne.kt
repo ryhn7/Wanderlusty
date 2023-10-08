@@ -1,9 +1,9 @@
 package com.example.wanderlusty.feature_explore_tourism.presentation.components
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.offset
@@ -12,6 +12,8 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
@@ -36,7 +38,7 @@ import com.example.wanderlusty.core.theme.White
 @Composable
 fun CardOne(
     content: Tourism,
-    modifier: Modifier
+    modifier: Modifier,
 ) {
     Card(
         colors = CardDefaults.cardColors(
@@ -55,6 +57,7 @@ fun CardOne(
                     .clip(RoundedCornerShape(8.dp))
             )
             Bookmark(
+                onClick = {},
                 modifier = Modifier
                     .padding(top = 7.dp, end = 7.dp)
                     .align(Alignment.TopEnd)
@@ -126,24 +129,31 @@ fun CardOne(
 
 @Composable
 fun Bookmark(
-    modifier: Modifier
+    modifier: Modifier,
+    onClick: () -> Unit,
 ) {
-    Box(
-        contentAlignment = Alignment.Center,
+    Button(
+        onClick = onClick,
+        colors = ButtonDefaults.buttonColors(containerColor = White),
+        shape = CircleShape,
+        contentPadding = PaddingValues(0.dp),
         modifier = modifier
             .size(45.dp)
-            .background(color = White, shape = CircleShape)
     ) {
-        Image(
-            painter = painterResource(id = R.drawable.ic_bookmark),
-            contentDescription = R.string.icon.toString(),
-            modifier = Modifier.size(26.dp)
-        )
+        Box(
+            contentAlignment = Alignment.Center,
+        ) {
+            Image(
+                painter = painterResource(id = R.drawable.ic_bookmark),
+                contentDescription = R.string.icon.toString(),
+                modifier = Modifier.size(26.dp)
+            )
+        }
     }
 }
 
 @Composable
-@Preview(showBackground = true)
+@Preview(showBackground = false)
 fun CardOnePreview() {
     WanderlustyTheme {
         CardOne(
@@ -160,10 +170,3 @@ fun CardOnePreview() {
         )
     }
 }
-//fun BookmarkPreview() {
-//    WanderlustyTheme {
-//        Bookmark(
-//            modifier = Modifier
-//        )
-//    }
-//}

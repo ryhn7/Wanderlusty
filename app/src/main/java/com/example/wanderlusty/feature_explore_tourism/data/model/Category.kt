@@ -1,4 +1,4 @@
-package com.example.wanderlusty.core.data.model
+package com.example.wanderlusty.feature_explore_tourism.data.model
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes

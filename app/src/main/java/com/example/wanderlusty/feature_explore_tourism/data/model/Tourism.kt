@@ -1,8 +1,9 @@
-package com.example.wanderlusty.core.data.model
+package com.example.wanderlusty.feature_explore_tourism.data.model
 
 import com.example.wanderlusty.R
 
 data class Tourism(
+    val id: Long ,
     val image: Int,
     val title: String,
     val rating: Number,
@@ -14,6 +15,7 @@ data class Tourism(
 
 val dummyFavoritePlace = listOf(
     Tourism(
+        id = 1,
         image = R.drawable.nusa_penida,
         title = "Kelingking Beach",
         rating = 4.8,
@@ -23,6 +25,7 @@ val dummyFavoritePlace = listOf(
         price = null,
     ),
     Tourism(
+        id = 2,
         image = R.drawable.korod,
         title = "Korod Rice Field",
         rating = 4.5,
@@ -32,6 +35,7 @@ val dummyFavoritePlace = listOf(
         price = null,
     ),
     Tourism(
+        id = 3,
         image = R.drawable.samosir_island,
         title = "Samosir Island",
         rating = 4.7,
@@ -41,8 +45,10 @@ val dummyFavoritePlace = listOf(
         price = null,
     ),
 )
+
 val dummyHiddenGems = listOf(
     Tourism(
+        id = 4,
         image = R.drawable.nusa_penida,
         title = "Kelingking Beach",
         rating = 4.8,
@@ -52,6 +58,7 @@ val dummyHiddenGems = listOf(
         price = null,
     ),
     Tourism(
+        id = 5,
         image = R.drawable.korod,
         title = "Korod Rice Field",
         rating = 4.5,
@@ -61,6 +68,7 @@ val dummyHiddenGems = listOf(
         price = null,
     ),
     Tourism(
+        id = 6,
         image = R.drawable.samosir_island,
         title = "Samosir Island",
         rating = 4.7,
