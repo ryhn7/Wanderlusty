@@ -30,10 +30,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.wanderlusty.R
-import com.example.wanderlusty.core.data.model.Tourism
 import com.example.wanderlusty.core.theme.DavysGrey
 import com.example.wanderlusty.core.theme.WanderlustyTheme
 import com.example.wanderlusty.core.theme.White
+import com.example.wanderlusty.feature_explore_tourism.data.model.Tourism
 
 @Composable
 fun CardOne(
@@ -158,6 +158,7 @@ fun CardOnePreview() {
     WanderlustyTheme {
         CardOne(
             content = Tourism(
+                1,
                 R.drawable.example_img,
                 "Monte Cervino",
                 4.8,

@@ -2,7 +2,11 @@ package com.example.wanderlusty.feature_explore_tourism.presentation.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -22,10 +26,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.wanderlusty.R
-import com.example.wanderlusty.core.data.model.Category
 import com.example.wanderlusty.core.theme.DavysGrey
 import com.example.wanderlusty.core.theme.IguanaGreen
 import com.example.wanderlusty.core.theme.WanderlustyTheme
+import com.example.wanderlusty.feature_explore_tourism.data.model.Category
 
 @Composable
 fun CardCategory(
@@ -40,29 +44,35 @@ fun CardCategory(
         shape = RoundedCornerShape(0.dp),
     )
     {
-        Box(
-            contentAlignment = Alignment.Center,
-            modifier = Modifier
-                .size(45.dp)
-                .background(color = IguanaGreen.copy(alpha = 0.25f), shape = CircleShape)
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center,
+            modifier = Modifier.fillMaxWidth()
         ) {
-            Image(
-                painter = painterResource(id = category.imageCategory),
-                contentDescription = R.string.icon.toString(),
-                modifier = Modifier.size(26.dp)
+            Box(
+                contentAlignment = Alignment.Center,
+                modifier = Modifier
+                    .size(45.dp)
+                    .background(color = IguanaGreen.copy(alpha = 0.25f), shape = CircleShape)
+            ) {
+                Image(
+                    painter = painterResource(id = category.imageCategory),
+                    contentDescription = R.string.icon.toString(),
+                    modifier = Modifier.size(26.dp)
+                )
+            }
+            Text(
+                text = stringResource(category.textCategory),
+                textAlign = TextAlign.Center,
+                style = MaterialTheme.typography.bodySmall.copy(
+                    fontWeight = FontWeight.Thin,
+                    color = DavysGrey
+                ),
+                modifier = Modifier
+                    .padding(top = 8.dp)
+//                    .align(Alignment.CenterHorizontally)
             )
         }
-        Text(
-            text = stringResource(category.textCategory),
-            textAlign = TextAlign.Center,
-            style = MaterialTheme.typography.bodySmall.copy(
-                fontWeight = FontWeight.Thin,
-                color = DavysGrey
-            ),
-            modifier = Modifier
-                .padding(top = 8.dp)
-                .align(Alignment.CenterHorizontally)
-        )
     }
 }
 
