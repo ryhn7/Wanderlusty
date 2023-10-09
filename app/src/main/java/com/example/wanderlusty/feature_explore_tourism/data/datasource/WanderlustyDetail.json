@@ -1,0 +1,143 @@
+{
+  "city_1": {
+    "name": "Pontianak",
+    "subtitle": "blabla",
+    "description": "lorem",
+    "map": "link google map",
+
+    "recommendation": [
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "type": "Historic Sites",
+        "location": "Semarang, Jawa Tengah"
+      },
+      {
+        "name": "Sites 2",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "type": "Historic Sites",
+        "location": "Semarang, Jawa Tengah"
+      }
+    ],
+
+    "hidden_gems": [
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": true,
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "tour_option": [
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          },
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          }
+        ]
+      }
+    ],
+
+    "hotel": [
+      {
+        "name": "HARRIS PONTIANAK 1",
+        "description": "deskripsi hotel",
+        "phone": "123 123",
+        "email": "harris@gmail.com",
+        "tag": ["Centrally Located", "Apalah"],
+        "languages": ["English", "Indonesian"],
+        "amenities": ["Pool", "Gym"],
+        "rating": "5",
+        "review": 120,
+        "price": 120000,
+        "site": "http://haris.com",
+        "sponsored": true,
+        "image": "haris.png"
+      }
+    ],
+
+    "things_todo": [
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": true,
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "tour_option": [
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          },
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          }
+        ]
+      }
+    ],
+
+    "restaurants": [
+      {
+        "name": "Restoran 1",
+        "description": "deskripsi restoran",
+        "tag": ["Cafe", "Healthy"],
+        "feature": ["Delivery", "Takeouts"],
+        "phone": "123 123",
+        "email": "harris@gmail.com",
+        "rating": "5",
+        "review": 120,
+        "price": 120000,
+        "open": "8:00AM",
+        "close": "10:30AM",
+        "address": "alamat restoran",
+        "sponsored": true,
+        "image": "haris.png"
+      }
+    ],
+
+    "rental": [
+      {
+        "name": "Rental mobil ahui",
+        "description": "deskripsi rental",
+        "phone": "123 123",
+        "email": "harris@gmail.com",
+        "list_vehicle": ["Wuling blabla", "Vario"],
+        "rating": "5",
+        "review": 120,
+        "price": 120000,
+        "site": "http://haris.com",
+        "sponsored": true,
+        "image": "haris.png"
+      }
+    ]
+  }
+}
