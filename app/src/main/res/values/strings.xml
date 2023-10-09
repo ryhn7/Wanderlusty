@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Wanderlusty</string>
     <string name="dummy_image">Dummy Image</string>
-    <string name="ic_star">Icon star</string>
-    <string name="ic_category">Icon category</string>
+    <string name="icon">Icon</string>
+    <string name="forest">Forest</string>
+    <string name="mountain">Mountain</string>
+    <string name="canyon">Canyon</string>
+    <string name="beach">Beach</string>
+    <string name="river">River</string>
 </resources>
