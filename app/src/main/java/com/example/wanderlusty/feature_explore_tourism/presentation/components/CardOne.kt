@@ -26,18 +26,21 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.PlatformTextStyle
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.wanderlusty.R
 import com.example.wanderlusty.core.theme.DavysGrey
-import com.example.wanderlusty.core.theme.WanderlustyTheme
 import com.example.wanderlusty.core.theme.White
-import com.example.wanderlusty.feature_explore_tourism.data.model.Tourism
 
 @Composable
 fun CardOne(
-    content: Tourism,
+    image: Int,
+    title: String,
+    rating: Number,
+    review: Number,
+    type: String,
+    location: String,
+    price: String? = null,
     modifier: Modifier,
 ) {
     Card(
@@ -49,7 +52,7 @@ fun CardOne(
     ) {
         Box {
             Image(
-                painter = painterResource(id = content.image),
+                painter = painterResource(id = image),
                 contentDescription = R.string.dummy_image.toString(),
                 contentScale = ContentScale.FillWidth,
                 modifier = Modifier
@@ -66,7 +69,7 @@ fun CardOne(
         }
         Column {
             Text(
-                text = content.title,
+                text = title,
                 style = MaterialTheme.typography.titleSmall.copy(
                     fontWeight = FontWeight.Medium,
                     letterSpacing = (-0.56).sp,
@@ -89,14 +92,14 @@ fun CardOne(
                         .offset(x = (-2).dp)
                 )
                 Text(
-                    text = content.rating.toString(),
+                    text = rating.toString(),
                     style = MaterialTheme.typography.labelSmall.copy(
                         fontWeight = FontWeight.Medium
                     ),
                     modifier = Modifier.padding(end = 2.dp)
                 )
                 Text(
-                    text = "(${content.review})",
+                    text = "(${review})",
                     style = MaterialTheme.typography.labelSmall.copy(
                         fontWeight = FontWeight.Normal,
                         color = DavysGrey
@@ -104,21 +107,21 @@ fun CardOne(
                 )
             }
             Text(
-                text = content.type,
+                text = type,
                 style = MaterialTheme.typography.labelMedium.copy(
                     fontWeight = FontWeight.Normal,
                 ),
                 modifier = Modifier.padding(top = 2.dp)
             )
             Text(
-                text = content.location,
+                text = location,
                 style = MaterialTheme.typography.labelMedium.copy(
                     fontWeight = FontWeight.Normal,
                 ),
                 modifier = Modifier.padding(top = 1.5.dp)
             )
             Text(
-                text = content.price ?: "",
+                text = price ?: "",
                 style = MaterialTheme.typography.labelMedium.copy(
                     fontWeight = FontWeight.Medium,
                 ),
@@ -152,22 +155,22 @@ fun Bookmark(
     }
 }
 
-@Composable
-@Preview(showBackground = false)
-fun CardOnePreview() {
-    WanderlustyTheme {
-        CardOne(
-            content = Tourism(
-                1,
-                R.drawable.example_img,
-                "Monte Cervino",
-                4.8,
-                1000,
-                "Mountain",
-                "Breuil-Cervinia, Italy",
-                "from \$39.82 per adult (price varies by group size)"
-            ),
-            modifier = Modifier
-        )
-    }
-}
+//@Composable
+//@Preview(showBackground = false)
+//fun CardOnePreview() {
+//    WanderlustyTheme {
+//        CardOne(
+//            content = Tourism(
+//                1,
+//                R.drawable.example_img,
+//                "Monte Cervino",
+//                4.8,
+//                1000,
+//                "Mountain",
+//                "Breuil-Cervinia, Italy",
+//                "from \$39.82 per adult (price varies by group size)"
+//            ),
+//            modifier = Modifier
+//        )
+//    }
+//}
