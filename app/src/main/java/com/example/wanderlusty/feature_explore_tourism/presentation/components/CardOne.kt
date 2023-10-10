@@ -47,7 +47,7 @@ fun CardOne(
         colors = CardDefaults.cardColors(
             containerColor = MaterialTheme.colorScheme.background,
         ),
-        modifier = modifier.width(206.dp),
+        modifier = modifier.width(228.dp),
         shape = RoundedCornerShape(0.dp),
     ) {
         Box {
@@ -56,7 +56,7 @@ fun CardOne(
                 contentDescription = R.string.dummy_image.toString(),
                 contentScale = ContentScale.FillWidth,
                 modifier = Modifier
-                    .height(206.dp)
+                    .height(228.dp)
                     .clip(RoundedCornerShape(8.dp))
             )
             Bookmark(
@@ -72,13 +72,14 @@ fun CardOne(
                 text = title,
                 style = MaterialTheme.typography.titleSmall.copy(
                     fontWeight = FontWeight.Medium,
+                    fontSize = 16.sp,
                     letterSpacing = (-0.56).sp,
                     platformStyle = PlatformTextStyle(
                         includeFontPadding = false
                     ),
                 ),
                 modifier = Modifier
-                    .padding(start = 1.dp, top = 4.dp, bottom = 2.dp)
+                    .padding(start = 1.dp, top = 6.dp, bottom = 2.dp)
             )
             Row(
                 verticalAlignment = Alignment.CenterVertically,
@@ -93,14 +94,14 @@ fun CardOne(
                 )
                 Text(
                     text = rating.toString(),
-                    style = MaterialTheme.typography.labelSmall.copy(
-                        fontWeight = FontWeight.Medium
+                    style = MaterialTheme.typography.labelMedium.copy(
+                        fontWeight = FontWeight.SemiBold
                     ),
                     modifier = Modifier.padding(end = 2.dp)
                 )
                 Text(
                     text = "(${review})",
-                    style = MaterialTheme.typography.labelSmall.copy(
+                    style = MaterialTheme.typography.labelMedium.copy(
                         fontWeight = FontWeight.Normal,
                         color = DavysGrey
                     ),
@@ -108,21 +109,21 @@ fun CardOne(
             }
             Text(
                 text = type,
-                style = MaterialTheme.typography.labelMedium.copy(
+                style = MaterialTheme.typography.labelLarge.copy(
                     fontWeight = FontWeight.Normal,
                 ),
                 modifier = Modifier.padding(top = 2.dp)
             )
             Text(
                 text = location,
-                style = MaterialTheme.typography.labelMedium.copy(
+                style = MaterialTheme.typography.labelLarge.copy(
                     fontWeight = FontWeight.Normal,
                 ),
                 modifier = Modifier.padding(top = 1.5.dp)
             )
             Text(
                 text = price ?: "",
-                style = MaterialTheme.typography.labelMedium.copy(
+                style = MaterialTheme.typography.labelLarge.copy(
                     fontWeight = FontWeight.Medium,
                 ),
             )
