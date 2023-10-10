@@ -15,4 +15,5 @@ val dummyCategory = listOf(
     R.drawable.ic_mountain to R.string.mountain,
     R.drawable.ic_canyon to R.string.canyon,
     R.drawable.ic_river to R.string.river,
+    R.drawable.ic_cave to R.string.cave,
 ).map { Category(it.first, it.second) }

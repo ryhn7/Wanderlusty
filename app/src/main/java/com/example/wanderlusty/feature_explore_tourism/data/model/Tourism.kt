@@ -3,14 +3,14 @@ package com.example.wanderlusty.feature_explore_tourism.data.model
 import com.example.wanderlusty.R
 
 data class Tourism(
-    val id: Long ,
+    val id: Long,
     val image: Int,
     val title: String,
     val rating: Number,
     val review: Number,
     val type: String,
     val location: String,
-    val price: String?,
+    val price: String? = null,
 )
 
 val dummyFavoritePlace = listOf(

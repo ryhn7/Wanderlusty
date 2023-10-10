@@ -14,20 +14,22 @@ import com.example.wanderlusty.core.theme.WanderlustyTheme
 @Composable
 fun Section(
     title: String,
-    subtitle: String?,
+    subtitle: String? = null,
     modifier: Modifier
 ) {
-    Column {
+    Column(modifier = modifier) {
         Text(
             text = title,
             style = MaterialTheme.typography.titleLarge.copy(
-                fontWeight = FontWeight.Medium
+                fontWeight = FontWeight.Medium,
+                fontSize = 22.sp
             )
         )
         Text(
             text = subtitle ?: "",
             style = MaterialTheme.typography.titleSmall.copy(
                 fontWeight = FontWeight.Thin,
+                fontSize = 15.sp,
                 letterSpacing = (-0.14).sp,
             )
         )
