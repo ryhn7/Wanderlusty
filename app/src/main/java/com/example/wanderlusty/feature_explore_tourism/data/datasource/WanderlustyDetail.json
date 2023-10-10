@@ -1,19 +1,19 @@
 {
   "city_1": {
-    "name": "Bali",
-    "subtitle": "blabla",
-    "description": "lorem",
+    "name": "Bogor",
+    "subtitle": "Tourism in Bogor",
+    "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
     "map": "link google map",
 
     "recommendation": [
       {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "type": "Historic Sites",
-        "location": "Semarang, Jawa Tengah"
+        "name": "Gunung Mas (Montain)",
+        "description": "Gunung Mas Agro Puncak Tea Garden tourism is a sensation that continues to grow with complete facilities and accommodation including the Gunung Mas Cluster Camping Ground model location on the edge of the tea walk tourist route with a cool atmosphere with cold air up to 18% Celsius at night. so that the atmosphere and campfire are the best friends to accompany your togetherness. Gunung Mas is a wise and effective choice with extraordinary benefits.",
+        "image": ["wisata_gunungmas.jpg", "wisata_gunungmas1.jpg", "wisata_gunungmas2.jgp"],
+        "rating": 4.7,
+        "review": 6.368,
+        "type": "Montain",
+        "location": "Bogor, Jawa Barat"
       },
       {
         "name": "Sites 2",
@@ -21,7 +21,7 @@
         "rating": 4,
         "review": 120,
         "type": "Historic Sites",
-        "location": "Semarang, Jawa Tengah"
+        "location": "Bogor, Jawa Barat"
       }
     ],
 
@@ -58,19 +58,20 @@
 
     "hotel": [
       {
-        "name": "HARRIS PONTIANAK 1",
-        "description": "deskripsi hotel",
-        "phone": "123 123",
-        "email": "harris@gmail.com",
-        "tag": ["Centrally Located", "Apalah"],
+        "name": "The Botanica Sanctuary",
+        "description": "The Botanica Sanctuary Hotel in Bogor offers a peaceful haven that combines beauty, relaxation and discovery. The hotel comprises of 166 luminous rooms – including 38 Suites, two restaurants and a rooftop infinity pool. Being ideally situated in the heart of the Puncak, the hotel affords breathtaking views of  Mount Pangrango and virgin pine forest. It is only 5 minutes away from the Taman Safari Indonesia, a world-class zoo and is titled the best conservation site by the Indonesian Ministry of Forestry.",
+        "phone": "02518217111",
+        "email": "reservation-thebotanica@tauzia.com",
+        "tag": ["located in Bogor", "Hotel in puncak bogor"],
         "languages": ["English", "Indonesian"],
-        "amenities": ["Pool", "Gym"],
-        "rating": "5",
-        "review": 120,
-        "price": 120000,
-        "site": "http://haris.com",
+        "amenities": ["SUN & MOON POOL"],
+        "rating": 4.7,
+        "review": 2104,
+        "price1": 1258200,
+        "price2": 2473200,
+        "site": "https://www.discoverasr.com/en/others/indonesia/the-botanica-sanctuary-bogor?utm_source=google&utm_medium=gmb&utm_campaign=-google-gmb-alwayson-20220101-all-en-id-id-MBCK--&utm_content=--",
         "sponsored": true,
-        "image": "haris.png"
+        "image": ["hotel_botanica.jpeg", "hotel_botanica1.jpeg", "hotel_botanica2.jpeg"],
       }
     ],
 
