@@ -128,31 +128,6 @@ fun CardOne(
 }
 
 @Composable
-fun Bookmark(
-    modifier: Modifier,
-    onClick: () -> Unit,
-) {
-    Button(
-        onClick = onClick,
-        colors = ButtonDefaults.buttonColors(containerColor = White),
-        shape = CircleShape,
-        contentPadding = PaddingValues(0.dp),
-        modifier = modifier
-            .size(45.dp)
-    ) {
-        Box(
-            contentAlignment = Alignment.Center,
-        ) {
-            Image(
-                painter = painterResource(id = R.drawable.ic_bookmark),
-                contentDescription = R.string.icon.toString(),
-                modifier = Modifier.size(26.dp)
-            )
-        }
-    }
-}
-
-@Composable
 @Preview(showBackground = false)
 fun CardOnePreview() {
     WanderlustyTheme {
