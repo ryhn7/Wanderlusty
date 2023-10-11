@@ -1,0 +1,581 @@
+{
+  "city_1": {
+    "name": "Bogor",
+    "subtitle": "Tourism in Bogor",
+    "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
+    "map": "link google map",
+    "recommendation": [
+      {
+        "name": "Mountain Mas",
+        "description": "Mountain Mas Agro Puncak Tea Garden tourism is a sensation that continues to grow with complete facilities and accommodation including the Mountain Mas Cluster Camping Ground model location on the edge of the tea walk tourist route with a cool atmosphere with cold air up to 18% Celsius at night. so that the atmosphere and campfire are the best friends to accompany your togetherness. Mountain Mas is a wise and effective choice with extraordinary benefits.",
+        "image": [
+          "wisata_gunungmas.jpg",
+          "wisata_gunungmas1.jpg",
+          "wisata_gunungmas2.jgp"
+        ],
+        "rating": 4.7,
+        "review": 6.368,
+        "type": "Mountain",
+        "location": "Bogor, Jawa Barat"
+      },
+      {
+        "name": "Kebun Raya Bogor",
+        "image": [
+          "wisata_kebunraya.jpg",
+          "wisata_kebunraya1.jpg",
+          "wisata_kebunraya2.jpg"
+        ],
+        "rating": 4.7,
+        "review": 93.847,
+        "type": "Educational Tourism",
+        "location": "Bogor, Jawa Barat"
+      }
+    ],
+    "hidden_gems": [
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": false,
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "tour_option": [
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          },
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          }
+        ]
+      }
+    ],
+    "hotel": [
+      {
+        "name": "The Botanica Sanctuary",
+        "description": "The Botanica Sanctuary Hotel in Bogor offers a peaceful haven that combines beauty, relaxation and discovery. The hotel comprises of 166 luminous rooms – including 38 Suites, two restaurants and a rooftop infinity pool. Being ideally situated in the heart of the Puncak, the hotel affords breathtaking views of  Mount Pangrango and virgin pine forest. It is only 5 minutes away from the Taman Safari Indonesia, a world-class zoo and is titled the best conservation site by the Indonesian Ministry of Forestry.",
+        "phone": "02518217111",
+        "email": "reservation-thebotanica@tauzia.com",
+        "tag": [
+          "located in Bogor",
+          "Hotel in puncak bogor"
+        ],
+        "languages": [
+          "English",
+          "Indonesian"
+        ],
+        "amenities": [
+          "SUN & MOON POOL"
+        ],
+        "rating": 4.7,
+        "review": 2104,
+        "price1": 1258200,
+        "price2": 2473200,
+        "site": "https://thebotanicapesonaalam.com",
+        "sponsored": false,
+        "image": [
+          "hotel_botanica.jpeg",
+          "hotel_botanica1.jpeg",
+          "hotel_botanica2.jpeg"
+        ]
+      },
+      {
+        "name": "The Grand Hill",
+        "description": "The Grand Hill is located in Puncak area, which is approximately 2 hours from Jakarta. The hotel is traditionally designed with Javanese and Balinese influence, with all the modern conveniences to make your stay both enjoyable and memorable. The hotel provides 89 luxury guests rooms, 6 villas and 5 function rooms.\n\n \n\nYour experience starts when you step into The Grand Hill hotel lobby. The open lobby area let the cool and fresh mountain air through and refreshes the senses. The friendly staff will help you with your check in process and the concierge will take you to your room so you can relax and get ready to explore the beautiful surroundings.\n\n \n\nThe hotel is situated on a hill which provides it with a spectacular view of Mount Salak. Feel the stress of daily life melts away as you relax in the infinity pool, explore the tranquil grounds surrounding the hotel, and enjoy the sunset view.\n\n \n\nThe Grand Hill also provides excellent dining experience with its two restaurants, The Grand Hill Bistro-Café and Kupu-Kupu. The Bistro offers a myriad of international cuisine, while Kupu-Kupu offers you an authentic Indonesian dining experience.\n\n \n\nThe fully equipped function rooms are ideal for company events and conferences. We can tailor-made a package to suit the needs of the company, including food and accommodation. If you are looking for a relaxing, stress free and tranquil experience, look no further.",
+        "phone": "+6285888296259",
+        "email": "groupreservation@thegrandhill.com",
+        "tag": [
+          "located in Bogor",
+          "Hotel in puncak bogor"
+        ],
+        "languages": [
+          "English",
+          "Indonesian"
+        ],
+        "amenities": [
+          "SUN & MOON POOL"
+        ],
+        "rating": 4.4,
+        "review": 2.905,
+        "price1": 625000,
+        "price2": 701250,
+        "site": "https://thegrandhill.com",
+        "sponsored": false,
+        "image": [
+          "hotel_thegrandhill.jpeg",
+          "hotel_thegrandhill1.jpeg",
+          "hotel_thegrandhill2.jpeg"
+        ]
+      }
+    ],
+    "things_todo": [
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": false,
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "tour_option": [
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          },
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          }
+        ]
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Restoran 1",
+        "description": "deskripsi restoran",
+        "tag": [
+          "Cafe",
+          "Healthy"
+        ],
+        "feature": [
+          "Delivery",
+          "Takeouts"
+        ],
+        "phone": "123 123",
+        "email": "harris@gmail.com",
+        "rating": "5",
+        "review": 120,
+        "price": 120000,
+        "open": "8:00AM",
+        "close": "10:30AM",
+        "address": "alamat restoran",
+        "sponsored": false,
+        "image": "haris.png"
+      }
+    ],
+    "rental": [
+      {
+        "name": "Rental mobil ahui",
+        "description": "deskripsi rental",
+        "phone": "123 123",
+        "email": "harris@gmail.com",
+        "list_vehicle": [
+          "Wuling blabla",
+          "Vario"
+        ],
+        "rating": "5",
+        "review": 120,
+        "price": 120000,
+        "site": "http://haris.com",
+        "sponsored": false,
+        "image": "haris.png"
+      }
+    ]
+  },
+  "city_2": {
+    "name": "Semarang",
+    "subtitle": "Tourism in Bogor",
+    "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
+    "map": "link google map",
+    "recommendation": [
+      {
+        "name": "Mountain Mas",
+        "description": "Mountain Mas Agro Puncak Tea Garden tourism is a sensation that continues to grow with complete facilities and accommodation including the Mountain Mas Cluster Camping Ground model location on the edge of the tea walk tourist route with a cool atmosphere with cold air up to 18% Celsius at night. so that the atmosphere and campfire are the best friends to accompany your togetherness. Mountain Mas is a wise and effective choice with extraordinary benefits.",
+        "image": [
+          "wisata_gunungmas.jpg",
+          "wisata_gunungmas1.jpg",
+          "wisata_gunungmas2.jgp"
+        ],
+        "rating": 4.7,
+        "review": 6.368,
+        "type": "Mountain",
+        "location": "Bogor, Jawa Barat"
+      },
+      {
+        "name": "Kebun Raya Bogor",
+        "image": [
+          "wisata_kebunraya.jpg",
+          "wisata_kebunraya1.jpg",
+          "wisata_kebunraya2.jpg"
+        ],
+        "rating": 4.7,
+        "review": 93.847,
+        "type": "Educational Tourism",
+        "location": "Bogor, Jawa Barat"
+      }
+    ],
+    "hidden_gems": [
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": false,
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "tour_option": [
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          },
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          }
+        ]
+      }
+    ],
+    "hotel": [
+      {
+        "name": "The Botanica Sanctuary",
+        "description": "The Botanica Sanctuary Hotel in Bogor offers a peaceful haven that combines beauty, relaxation and discovery. The hotel comprises of 166 luminous rooms – including 38 Suites, two restaurants and a rooftop infinity pool. Being ideally situated in the heart of the Puncak, the hotel affords breathtaking views of  Mount Pangrango and virgin pine forest. It is only 5 minutes away from the Taman Safari Indonesia, a world-class zoo and is titled the best conservation site by the Indonesian Ministry of Forestry.",
+        "phone": "02518217111",
+        "email": "reservation-thebotanica@tauzia.com",
+        "tag": [
+          "located in Bogor",
+          "Hotel in puncak bogor"
+        ],
+        "languages": [
+          "English",
+          "Indonesian"
+        ],
+        "amenities": [
+          "SUN & MOON POOL"
+        ],
+        "rating": 4.7,
+        "review": 2104,
+        "price1": 1258200,
+        "price2": 2473200,
+        "site": "https://thebotanicapesonaalam.com",
+        "sponsored": false,
+        "image": [
+          "hotel_botanica.jpeg",
+          "hotel_botanica1.jpeg",
+          "hotel_botanica2.jpeg"
+        ]
+      },
+      {
+        "name": "The Grand Hill",
+        "description": "The Grand Hill is located in Puncak area, which is approximately 2 hours from Jakarta. The hotel is traditionally designed with Javanese and Balinese influence, with all the modern conveniences to make your stay both enjoyable and memorable. The hotel provides 89 luxury guests rooms, 6 villas and 5 function rooms.\n\n \n\nYour experience starts when you step into The Grand Hill hotel lobby. The open lobby area let the cool and fresh mountain air through and refreshes the senses. The friendly staff will help you with your check in process and the concierge will take you to your room so you can relax and get ready to explore the beautiful surroundings.\n\n \n\nThe hotel is situated on a hill which provides it with a spectacular view of Mount Salak. Feel the stress of daily life melts away as you relax in the infinity pool, explore the tranquil grounds surrounding the hotel, and enjoy the sunset view.\n\n \n\nThe Grand Hill also provides excellent dining experience with its two restaurants, The Grand Hill Bistro-Café and Kupu-Kupu. The Bistro offers a myriad of international cuisine, while Kupu-Kupu offers you an authentic Indonesian dining experience.\n\n \n\nThe fully equipped function rooms are ideal for company events and conferences. We can tailor-made a package to suit the needs of the company, including food and accommodation. If you are looking for a relaxing, stress free and tranquil experience, look no further.",
+        "phone": "+6285888296259",
+        "email": "groupreservation@thegrandhill.com",
+        "tag": [
+          "located in Bogor",
+          "Hotel in puncak bogor"
+        ],
+        "languages": [
+          "English",
+          "Indonesian"
+        ],
+        "amenities": [
+          "SUN & MOON POOL"
+        ],
+        "rating": 4.4,
+        "review": 2.905,
+        "price1": 625000,
+        "price2": 701250,
+        "site": "https://thegrandhill.com",
+        "sponsored": false,
+        "image": [
+          "hotel_thegrandhill.jpeg",
+          "hotel_thegrandhill1.jpeg",
+          "hotel_thegrandhill2.jpeg"
+        ]
+      }
+    ],
+    "things_todo": [
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": false,
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "tour_option": [
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          },
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          }
+        ]
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Restoran 1",
+        "description": "deskripsi restoran",
+        "tag": [
+          "Cafe",
+          "Healthy"
+        ],
+        "feature": [
+          "Delivery",
+          "Takeouts"
+        ],
+        "phone": "123 123",
+        "email": "harris@gmail.com",
+        "rating": "5",
+        "review": 120,
+        "price": 120000,
+        "open": "8:00AM",
+        "close": "10:30AM",
+        "address": "alamat restoran",
+        "sponsored": false,
+        "image": "haris.png"
+      }
+    ],
+    "rental": [
+      {
+        "name": "Rental mobil ahui",
+        "description": "deskripsi rental",
+        "phone": "123 123",
+        "email": "harris@gmail.com",
+        "list_vehicle": [
+          "Wuling blabla",
+          "Vario"
+        ],
+        "rating": "5",
+        "review": 120,
+        "price": 120000,
+        "site": "http://haris.com",
+        "sponsored": false,
+        "image": "haris.png"
+      }
+    ]
+  },
+  "city_3": {
+    "name": "Aceh",
+    "subtitle": "Tourism in Bogor",
+    "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
+    "map": "link google map",
+    "recommendation": [
+      {
+        "name": "Mountain Mas",
+        "description": "Mountain Mas Agro Puncak Tea Garden tourism is a sensation that continues to grow with complete facilities and accommodation including the Mountain Mas Cluster Camping Ground model location on the edge of the tea walk tourist route with a cool atmosphere with cold air up to 18% Celsius at night. so that the atmosphere and campfire are the best friends to accompany your togetherness. Mountain Mas is a wise and effective choice with extraordinary benefits.",
+        "image": [
+          "wisata_gunungmas.jpg",
+          "wisata_gunungmas1.jpg",
+          "wisata_gunungmas2.jgp"
+        ],
+        "rating": 4.7,
+        "review": 6.368,
+        "type": "Mountain",
+        "location": "Bogor, Jawa Barat"
+      },
+      {
+        "name": "Kebun Raya Bogor",
+        "image": [
+          "wisata_kebunraya.jpg",
+          "wisata_kebunraya1.jpg",
+          "wisata_kebunraya2.jpg"
+        ],
+        "rating": 4.7,
+        "review": 93.847,
+        "type": "Educational Tourism",
+        "location": "Bogor, Jawa Barat"
+      }
+    ],
+    "hidden_gems": [
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": false,
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "tour_option": [
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          },
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          }
+        ]
+      }
+    ],
+    "hotel": [
+      {
+        "name": "The Botanica Sanctuary",
+        "description": "The Botanica Sanctuary Hotel in Bogor offers a peaceful haven that combines beauty, relaxation and discovery. The hotel comprises of 166 luminous rooms – including 38 Suites, two restaurants and a rooftop infinity pool. Being ideally situated in the heart of the Puncak, the hotel affords breathtaking views of  Mount Pangrango and virgin pine forest. It is only 5 minutes away from the Taman Safari Indonesia, a world-class zoo and is titled the best conservation site by the Indonesian Ministry of Forestry.",
+        "phone": "02518217111",
+        "email": "reservation-thebotanica@tauzia.com",
+        "tag": [
+          "located in Bogor",
+          "Hotel in puncak bogor"
+        ],
+        "languages": [
+          "English",
+          "Indonesian"
+        ],
+        "amenities": [
+          "SUN & MOON POOL"
+        ],
+        "rating": 4.7,
+        "review": 2104,
+        "price1": 1258200,
+        "price2": 2473200,
+        "site": "https://thebotanicapesonaalam.com",
+        "sponsored": false,
+        "image": [
+          "hotel_botanica.jpeg",
+          "hotel_botanica1.jpeg",
+          "hotel_botanica2.jpeg"
+        ]
+      },
+      {
+        "name": "The Grand Hill",
+        "description": "The Grand Hill is located in Puncak area, which is approximately 2 hours from Jakarta. The hotel is traditionally designed with Javanese and Balinese influence, with all the modern conveniences to make your stay both enjoyable and memorable. The hotel provides 89 luxury guests rooms, 6 villas and 5 function rooms.\n\n \n\nYour experience starts when you step into The Grand Hill hotel lobby. The open lobby area let the cool and fresh mountain air through and refreshes the senses. The friendly staff will help you with your check in process and the concierge will take you to your room so you can relax and get ready to explore the beautiful surroundings.\n\n \n\nThe hotel is situated on a hill which provides it with a spectacular view of Mount Salak. Feel the stress of daily life melts away as you relax in the infinity pool, explore the tranquil grounds surrounding the hotel, and enjoy the sunset view.\n\n \n\nThe Grand Hill also provides excellent dining experience with its two restaurants, The Grand Hill Bistro-Café and Kupu-Kupu. The Bistro offers a myriad of international cuisine, while Kupu-Kupu offers you an authentic Indonesian dining experience.\n\n \n\nThe fully equipped function rooms are ideal for company events and conferences. We can tailor-made a package to suit the needs of the company, including food and accommodation. If you are looking for a relaxing, stress free and tranquil experience, look no further.",
+        "phone": "+6285888296259",
+        "email": "groupreservation@thegrandhill.com",
+        "tag": [
+          "located in Bogor",
+          "Hotel in puncak bogor"
+        ],
+        "languages": [
+          "English",
+          "Indonesian"
+        ],
+        "amenities": [
+          "SUN & MOON POOL"
+        ],
+        "rating": 4.4,
+        "review": 2.905,
+        "price1": 625000,
+        "price2": 701250,
+        "site": "https://thegrandhill.com",
+        "sponsored": false,
+        "image": [
+          "hotel_thegrandhill.jpeg",
+          "hotel_thegrandhill1.jpeg",
+          "hotel_thegrandhill2.jpeg"
+        ]
+      }
+    ],
+    "things_todo": [
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": false,
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "tour_option": [
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          },
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          }
+        ]
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Restoran 1",
+        "description": "deskripsi restoran",
+        "tag": [
+          "Cafe",
+          "Healthy"
+        ],
+        "feature": [
+          "Delivery",
+          "Takeouts"
+        ],
+        "phone": "123 123",
+        "email": "harris@gmail.com",
+        "rating": "5",
+        "review": 120,
+        "price": 120000,
+        "open": "8:00AM",
+        "close": "10:30AM",
+        "address": "alamat restoran",
+        "sponsored": false,
+        "image": "haris.png"
+      }
+    ],
+    "rental": [
+      {
+        "name": "Rental mobil ahui",
+        "description": "deskripsi rental",
+        "phone": "123 123",
+        "email": "harris@gmail.com",
+        "list_vehicle": [
+          "Wuling blabla",
+          "Vario"
+        ],
+        "rating": "5",
+        "review": 120,
+        "price": 120000,
+        "site": "http://haris.com",
+        "sponsored": false,
+        "image": "haris.png"
+      }
+    ]
+  }
+}
