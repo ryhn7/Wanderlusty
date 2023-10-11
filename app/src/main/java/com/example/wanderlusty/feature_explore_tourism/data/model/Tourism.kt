@@ -16,7 +16,7 @@ data class Tourism(
 val dummyFavoritePlace = listOf(
     Tourism(
         id = 1,
-        image = R.drawable.nusa_penida,
+        image = R.drawable.wisata_gunung_mas,
         title = "Kelingking Beach",
         rating = 4.8,
         review = 2000,
@@ -26,7 +26,7 @@ val dummyFavoritePlace = listOf(
     ),
     Tourism(
         id = 2,
-        image = R.drawable.korod,
+        image = R.drawable.bali,
         title = "Korod Rice Field",
         rating = 4.5,
         review = 700,
@@ -36,7 +36,7 @@ val dummyFavoritePlace = listOf(
     ),
     Tourism(
         id = 3,
-        image = R.drawable.samosir_island,
+        image = R.drawable.bukit_lawang,
         title = "Samosir Island",
         rating = 4.7,
         review = 2300,
