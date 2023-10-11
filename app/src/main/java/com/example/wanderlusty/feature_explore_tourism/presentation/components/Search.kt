@@ -39,7 +39,6 @@ import com.example.wanderlusty.core.theme.White
 
 @Composable
 fun Search(modifier: Modifier) {
-
     var query by rememberSaveable { mutableStateOf("") }
 
     val customTextSelectionColors = TextSelectionColors(
@@ -99,7 +98,6 @@ fun Search(modifier: Modifier) {
         }
     }
 }
-
 
 @Preview(showBackground = true)
 @Composable
