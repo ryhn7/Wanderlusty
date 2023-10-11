@@ -26,34 +26,37 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.PlatformTextStyle
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.wanderlusty.R
 import com.example.wanderlusty.core.theme.DavysGrey
-import com.example.wanderlusty.core.theme.WanderlustyTheme
 import com.example.wanderlusty.core.theme.White
-import com.example.wanderlusty.feature_explore_tourism.data.model.Tourism
 
 @Composable
 fun CardOne(
-    content: Tourism,
+    image: Int,
+    title: String,
+    rating: Number,
+    review: Number,
+    type: String,
+    location: String,
+    price: String? = null,
     modifier: Modifier,
 ) {
     Card(
         colors = CardDefaults.cardColors(
             containerColor = MaterialTheme.colorScheme.background,
         ),
-        modifier = modifier.width(206.dp),
+        modifier = modifier.width(228.dp),
         shape = RoundedCornerShape(0.dp),
     ) {
         Box {
             Image(
-                painter = painterResource(id = content.image),
+                painter = painterResource(id = image),
                 contentDescription = R.string.dummy_image.toString(),
                 contentScale = ContentScale.FillWidth,
                 modifier = Modifier
-                    .height(206.dp)
+                    .height(228.dp)
                     .clip(RoundedCornerShape(8.dp))
             )
             Bookmark(
@@ -66,16 +69,17 @@ fun CardOne(
         }
         Column {
             Text(
-                text = content.title,
+                text = title,
                 style = MaterialTheme.typography.titleSmall.copy(
                     fontWeight = FontWeight.Medium,
+                    fontSize = 16.sp,
                     letterSpacing = (-0.56).sp,
                     platformStyle = PlatformTextStyle(
                         includeFontPadding = false
                     ),
                 ),
                 modifier = Modifier
-                    .padding(start = 1.dp, top = 4.dp, bottom = 2.dp)
+                    .padding(start = 1.dp, top = 6.dp, bottom = 2.dp)
             )
             Row(
                 verticalAlignment = Alignment.CenterVertically,
@@ -89,37 +93,37 @@ fun CardOne(
                         .offset(x = (-2).dp)
                 )
                 Text(
-                    text = content.rating.toString(),
-                    style = MaterialTheme.typography.labelSmall.copy(
-                        fontWeight = FontWeight.Medium
+                    text = rating.toString(),
+                    style = MaterialTheme.typography.labelMedium.copy(
+                        fontWeight = FontWeight.SemiBold
                     ),
                     modifier = Modifier.padding(end = 2.dp)
                 )
                 Text(
-                    text = "(${content.review})",
-                    style = MaterialTheme.typography.labelSmall.copy(
+                    text = "(${review})",
+                    style = MaterialTheme.typography.labelMedium.copy(
                         fontWeight = FontWeight.Normal,
                         color = DavysGrey
                     ),
                 )
             }
             Text(
-                text = content.type,
-                style = MaterialTheme.typography.labelMedium.copy(
+                text = type,
+                style = MaterialTheme.typography.labelLarge.copy(
                     fontWeight = FontWeight.Normal,
                 ),
                 modifier = Modifier.padding(top = 2.dp)
             )
             Text(
-                text = content.location,
-                style = MaterialTheme.typography.labelMedium.copy(
+                text = location,
+                style = MaterialTheme.typography.labelLarge.copy(
                     fontWeight = FontWeight.Normal,
                 ),
                 modifier = Modifier.padding(top = 1.5.dp)
             )
             Text(
-                text = content.price ?: "",
-                style = MaterialTheme.typography.labelMedium.copy(
+                text = price ?: "",
+                style = MaterialTheme.typography.labelLarge.copy(
                     fontWeight = FontWeight.Medium,
                 ),
             )
@@ -152,22 +156,22 @@ fun Bookmark(
     }
 }
 
-@Composable
-@Preview(showBackground = false)
-fun CardOnePreview() {
-    WanderlustyTheme {
-        CardOne(
-            content = Tourism(
-                1,
-                R.drawable.example_img,
-                "Monte Cervino",
-                4.8,
-                1000,
-                "Mountain",
-                "Breuil-Cervinia, Italy",
-                "from \$39.82 per adult (price varies by group size)"
-            ),
-            modifier = Modifier
-        )
-    }
-}
+//@Composable
+//@Preview(showBackground = false)
+//fun CardOnePreview() {
+//    WanderlustyTheme {
+//        CardOne(
+//            content = Tourism(
+//                1,
+//                R.drawable.example_img,
+//                "Monte Cervino",
+//                4.8,
+//                1000,
+//                "Mountain",
+//                "Breuil-Cervinia, Italy",
+//                "from \$39.82 per adult (price varies by group size)"
+//            ),
+//            modifier = Modifier
+//        )
+//    }
+//}

@@ -3,20 +3,20 @@ package com.example.wanderlusty.feature_explore_tourism.data.model
 import com.example.wanderlusty.R
 
 data class Tourism(
-    val id: Long ,
+    val id: Long,
     val image: Int,
     val title: String,
     val rating: Number,
     val review: Number,
     val type: String,
     val location: String,
-    val price: String?,
+    val price: String? = null,
 )
 
 val dummyFavoritePlace = listOf(
     Tourism(
         id = 1,
-        image = R.drawable.nusa_penida,
+        image = R.drawable.wisata_gunung_mas,
         title = "Kelingking Beach",
         rating = 4.8,
         review = 2000,
@@ -26,7 +26,7 @@ val dummyFavoritePlace = listOf(
     ),
     Tourism(
         id = 2,
-        image = R.drawable.korod,
+        image = R.drawable.bali,
         title = "Korod Rice Field",
         rating = 4.5,
         review = 700,
@@ -36,7 +36,7 @@ val dummyFavoritePlace = listOf(
     ),
     Tourism(
         id = 3,
-        image = R.drawable.samosir_island,
+        image = R.drawable.bukit_lawang,
         title = "Samosir Island",
         rating = 4.7,
         review = 2300,

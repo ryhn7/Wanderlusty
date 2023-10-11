@@ -7,4 +7,9 @@
     <string name="canyon">Canyon</string>
     <string name="beach">Beach</string>
     <string name="river">River</string>
+    <string name="cave">Cave</string>
+    <string name="text_explore">Explore</string>
+    <string name="section_hidden_gems">Hidden Gems</string>
+    <string name="subtitle_hidden_gems">Explore nearby gems and hidden treasures</string>
+    <string name="section_favorite_place">Favorite Place</string>
 </resources>
