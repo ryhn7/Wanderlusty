@@ -5,6 +5,7 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
@@ -43,14 +44,15 @@ fun AddTourismCard(
         colors = CardDefaults.cardColors(
             containerColor = CalPolyPomonaGreen,
         ),
-        modifier = modifier,
         shape = RoundedCornerShape(8.dp),
+        modifier = modifier.fillMaxWidth(),
     ) {
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
             modifier = Modifier
-                .padding(start = 32.dp, top = 24.dp, end = 32.dp, bottom = 22.dp)
+                .fillMaxWidth()
+                .padding(top = 24.dp, bottom = 22.dp)
         ) {
             Text(
                 text = title,
