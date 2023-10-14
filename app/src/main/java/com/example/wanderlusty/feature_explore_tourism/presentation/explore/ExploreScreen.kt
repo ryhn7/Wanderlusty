@@ -92,8 +92,8 @@ fun ExploreScreen(
                 }
                 item {
                     Section(
-                        title = stringResource(R.string.section_favorite_place),
-                        subtitle = stringResource(R.string.subtitle_hidden_gems),
+                        title = stringResource(R.string.section_discovering_inspiring_cities),
+                        subtitle = stringResource(R.string.subtitle_discovering_inspiring_cities),
                         modifier = Modifier.padding(top = 36.dp)
                     )
                 }
