@@ -8,6 +8,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.example.wanderlusty.core.theme.WanderlustyTheme
+import com.example.wanderlusty.feature_explore_tourism.presentation.auth.LoginPage
 import com.example.wanderlusty.feature_explore_tourism.presentation.explore.ExploreScreen
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -23,6 +24,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     ExploreScreen()
+//                    LoginPage(modifier = Modifier)
                 }
             }
         }
