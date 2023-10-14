@@ -2,6 +2,7 @@ package com.example.wanderlusty.feature_explore_tourism.presentation.auth
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
@@ -27,58 +28,48 @@ import com.example.wanderlusty.feature_explore_tourism.presentation.components.b
 fun LoginPage(
     modifier: Modifier
 ) {
-    LazyColumn(
+    Column(
         modifier = modifier
             .background(White)
             .fillMaxWidth()
             .padding(start = 24.dp, top = 30.dp, end = 24.dp)
     ) {
-        item {
-            Image(
-                painter = painterResource(id = R.drawable.ic_back),
-                contentDescription = "back",
-                modifier = Modifier
-                    .width(30.dp)
-            )
-        }
-        item {
-            Text(
-                text = "Welcome back.",
-                style = MaterialTheme.typography.headlineSmall.copy(
-                    fontWeight = FontWeight.SemiBold
-                ),
-                modifier = Modifier.padding(top = 36.dp, bottom = 30.dp)
-            )
-        }
-        item {
-            NormalField(
-                label = "Email address",
-                plcholder = "Enter your email"
-            )
-        }
-        item {
-            PasswordField(
-                label = "Password",
-                plcholder = "Enter your password"
-            )
-        }
-        item {
-            btnForgotPwd()
-        }
-        item {
-            BtnLoginRegister(
-                label = "Sign in",
-                onClick = {},
-                modifier = Modifier
-            )
-        }
-        item {
-            BtnLoginRegister(
-                label = "Sign up",
-                onClick = {},
-                modifier = Modifier
-            )
-        }
+//        Image(
+//            painter = painterResource(id = R.drawable.ic_back),
+//            contentDescription = "back",
+//            modifier = Modifier
+//                .width(30.dp)
+//        )
+        Text(
+            text = "Welcome back.",
+            style = MaterialTheme.typography.headlineSmall.copy(
+                fontWeight = FontWeight.SemiBold
+            ),
+            modifier = Modifier.padding(top = 36.dp, bottom = 30.dp)
+        )
+
+        NormalField(
+            label = "Email address",
+            plcholder = "Enter your email"
+        )
+        PasswordField(
+            label = "Password",
+            plcholder = "Enter your password"
+        )
+
+        btnForgotPwd()
+
+        BtnLoginRegister(
+            label = "Sign in",
+            onClick = {},
+            modifier = Modifier
+        )
+
+        BtnLoginRegister(
+            label = "Sign up",
+            onClick = {},
+            modifier = Modifier
+        )
     }
 }
 
