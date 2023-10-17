@@ -193,41 +193,41 @@
     ]
   },
   "city_2": {
-    "name": "Semarang",
-    "subtitle": "Tourism in Bogor",
-    "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
+    "name": "Medan",
+    "subtitle": "Tourism in Medan",
+    "description": " Medan is known as Maha Bandar City or often abbreviated as Medan City. Also, Medan is known as the capital of North Sumatra Province in Indonesia. The term Maha Bandar City refers to its status as an important trade and economic center in the region ",
     "map": "link google map",
     "recommendation": [
       {
-        "name": "Mountain Mas",
-        "description": "Mountain Mas Agro Puncak Tea Garden tourism is a sensation that continues to grow with complete facilities and accommodation including the Mountain Mas Cluster Camping Ground model location on the edge of the tea walk tourist route with a cool atmosphere with cold air up to 18% Celsius at night. so that the atmosphere and campfire are the best friends to accompany your togetherness. Mountain Mas is a wise and effective choice with extraordinary benefits.",
+        "name": "Lawang Hill",
+        "description": " Bukit Lawang combines extraordinary natural beauty with unique biodiversity, making it the perfect place for nature lovers and adventurers. With various activities and experiences on offer, Bukit Lawang is an attractive destination in North Sumatra ",
         "image": [
-          "wisata_gunungmas.jpg",
-          "wisata_gunungmas1.jpg",
-          "wisata_gunungmas2.jgp"
+          "Bukit Lawang1.jpg",
+          "Bukit Lawang2.jpg",
+          "Bukit Lawang3.jgp"
         ],
-        "rating": 4.7,
-        "review": 6.368,
-        "type": "Mountain",
-        "location": "Bogor, Jawa Barat"
+        "rating": 4.8,
+        "review": 923,
+        "type": "River",
+        "location": "Langkat, Sumatera Utara"
       },
       {
-        "name": "Kebun Raya Bogor",
+        "name": "Danau Toba",
         "image": [
-          "wisata_kebunraya.jpg",
-          "wisata_kebunraya1.jpg",
-          "wisata_kebunraya2.jpg"
+          "Danau Toba 1.jpg",
+          "Danau Toba 2.jpg",
+          "Danau Toba 3.jpg"
         ],
-        "rating": 4.7,
-        "review": 93.847,
-        "type": "Educational Tourism",
-        "location": "Bogor, Jawa Barat"
+        "rating": 4.5,
+        "review": 867,
+        "type": "Lake",
+        "location": "Simalungun, Sumatera Utara"
       }
     ],
     "hidden_gems": [
       {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
+        "name": "Pemandian air panas Pariban",
+        "description": "The Pariban Hotel offers accommodations with an outdoor swimming pool, free private parking, a garden, and a terrace in Berastagi, 34 km from Mount Sinabung. The hotel features a hot tub and a 24-hour front desk ",
         "image": "lawangsewu.png",
         "rating": 4,
         "review": 120,
