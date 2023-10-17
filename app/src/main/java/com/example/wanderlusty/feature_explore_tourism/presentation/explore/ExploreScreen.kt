@@ -23,9 +23,11 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.example.wanderlusty.R
 import com.example.wanderlusty.core.theme.White
 import com.example.wanderlusty.feature_explore_tourism.data.model.Tourism
+import com.example.wanderlusty.feature_explore_tourism.presentation.components.AddTourismCard
 import com.example.wanderlusty.feature_explore_tourism.presentation.components.CardOne
 import com.example.wanderlusty.feature_explore_tourism.presentation.components.Header
 import com.example.wanderlusty.feature_explore_tourism.presentation.components.ListCategory
+import com.example.wanderlusty.feature_explore_tourism.presentation.components.Promotion
 import com.example.wanderlusty.feature_explore_tourism.presentation.components.Search
 import com.example.wanderlusty.feature_explore_tourism.presentation.components.Section
 
@@ -102,6 +104,27 @@ fun ExploreScreen(
                             modifier = Modifier
                         )
                     }
+                }
+                item {
+                    Promotion(
+                        title = "Coastal drives and\nforested hillsides",
+                        subtitle = "Immerse yourself in the beauty of nature,\nwhere the rugged shoreline meets the\nverdant wilderness",
+                        buttonText = "Let's go",
+                        image = R.drawable.coastal,
+                        onClick = {},
+                        modifier = Modifier
+                            .padding(top = 36.dp, end = 16.dp)
+                    )
+                }
+                item {
+                    AddTourismCard(
+                        title = "Help expand our\n" +
+                                " map of wonders!",
+                        cta = "Add a hidden gem",
+                        onClick = { /*TODO*/ },
+                        modifier = Modifier
+                            .padding(top = 62.dp, end = 16.dp, bottom = 62.dp)
+                    )
                 }
             }
         }
